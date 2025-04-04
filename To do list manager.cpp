@@ -2,7 +2,8 @@
 #include <fstream>
 using namespace std;
 
-int main() {
+int main() 
+{
     cout << "Save/load (type 'Save' to save, 'Load' to load): " << endl;
     string command;
     getline(cin, command);
